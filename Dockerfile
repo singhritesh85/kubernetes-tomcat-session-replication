@@ -8,4 +8,4 @@ ADD https://repo1.maven.org/maven2/org/redisson/redisson-tomcat-8/3.22.0/redisso
 COPY ./pasco/context.xml /usr/local/tomcat/conf/
 COPY ./pasco/redisson.yaml /usr/local/tomcat/
 
-COPY ./ROOT.war /usr/local/tomcat/webapps
+COPY ./target/ROOT.war /usr/local/tomcat/webapps
