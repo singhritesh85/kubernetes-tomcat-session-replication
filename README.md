@@ -68,3 +68,8 @@ cp ./target/ROOT.war $TOMCAT_HOME/webapps/ROOT.war
 ## This project used in
 * [Java Web Application (WAR) deployed as root "/" context onto Customized Bitnami Tomcat 9](https://github.com/AndriyKalashnykov/bitnami-tomcat9-jdk18-root-war)
 * [Docker image of this application deployed onto Customized Bitnami Tomcat 9](https://hub.docker.com/r/andriykalashnykov/bitnami-tomcat9-jdk18-root-war)
+
+
+```
+This source code has been taken from the GitHUb Repository https://github.com/AndriyKalashnykov/tomcat-root-war.git
+```
