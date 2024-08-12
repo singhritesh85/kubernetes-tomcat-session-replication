@@ -78,8 +78,26 @@
 
 <table>
     <%
-        String SessionID = getSessionId();
+
+        Cookie[] arr1 = request.getCookies();
+        String cookiename = "";
+        String cookievalue ="";
+        if ((arr1 != null) && (arr1.length > 0))  {
+        for (int i = 0; i < arr1.length; i++) {
+            cookiename = arr1[i].getName();
+            cookievalue = arr1[i].getValue();
+        }
+
     %>
+    <tr>
+        <td>
+            <%=cookiename %>
+        </td>
+        <td>
+            <%=cookievalue %>
+        </td>
+    </tr>
+    <% } %>
 </table>
 
 
