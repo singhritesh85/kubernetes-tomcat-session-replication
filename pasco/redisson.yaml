@@ -20,7 +20,7 @@ replicatedServersConfig:
   readMode: "SLAVE"
   subscriptionMode: "SLAVE"
   nodeAddresses:
-    - "redis://redis-cluster-master.redis.svc.cluster.local:6379"
+    - "redis://redis-master.redis.svc.cluster.local:6379"
   scanInterval: 1000
   pingConnectionInterval: 30000
   keepAlive: false
